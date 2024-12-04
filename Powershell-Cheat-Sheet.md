@@ -1,6 +1,6 @@
 # PowerShell Cheatsheet
 
-- `mkdr`
+- `mkdir`(+ name)
 Erstelle ein neues Verzeichnis
 
 - `CLS`
