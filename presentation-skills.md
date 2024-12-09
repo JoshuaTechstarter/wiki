@@ -5,14 +5,17 @@
 
 `Folien:`
 - Layout
+
 Alle Folien sollten inhaltlich und vom Design her kohärent sein
 
 - Inhalt
+
 Weniger ist mehr. Texte in kurzen Stichpunkten zusammenfassen, Grafiken entweder nutzen um den Text zu visualisieren oder als eigene Folie anfügen. 
 
 
 `Sprache:`
 - Vortragen vs. Vorlesen
+
 Vortragen: Du solltest zu jedem Stichpunkt mehr sagen sollen als auf der Folie steht, die Stichpunkte werden dann für die Vortragenden und die Zuhörer als mentale 'Überschrift' behandelt
 Vorlesen: Meist verliert man die Aufmerksamkeit des Zuhörers wenn man die Folien stumpf abliest da der Zuhörer dann meist mitliest und einen dabei sogar überholen könnte und dann das Interesse verliert
 
