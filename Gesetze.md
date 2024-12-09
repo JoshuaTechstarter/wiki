@@ -17,7 +17,9 @@ Das Ergebnis ist das Gegenteil des Operanden.
 
 ``Implikation (⇒):``
 
-
+A impliziert B bedeutet, dass wenn A = 1 ist, dann muss auch B = 1 sein, damit das
+Ergebnis der implikation 1 ist.
+Sollte A = 0 sein, ist das Ergebnis der Implikation immer 1.
 
 ``XOR (⊕):``
 
