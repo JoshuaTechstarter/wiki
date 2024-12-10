@@ -20,7 +20,7 @@
 
 - ``A ∨ (B ∧ C) = (A ∨ B) ∧ (A ∨ C)``
 
-- ``A (B ∨ C) = (A ∧ B) ∨ (A ∧ C)``
+- ``A ∧ (B ∨ C) = (A ∧ B) ∨ (A ∧ C)``
 
 
 # 4. Identitätsgesetz:
