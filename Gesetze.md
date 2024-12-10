@@ -2,49 +2,59 @@
 
 ## Gesetze
 
-``1. Kommutativgesetz:``
+# 1. Kommutativgesetz:
 
-A ∨ B = B ∨ A
+- ``A ∨ B = B ∨ A``
 
-A ∧ B = B ∧ A
-
-
-``2. Assoziativgesetz:``
-
-(A ∨ B) ∨ C = A ∨ (B ∨ C)
-
-(A ∧ B) ∧ C = A ∧ (B ∧ C)
+- ``A ∧ B = B ∧ A``
 
 
-``3. Distributivgesetz:``
+# 2. Assoziativgesetz:
 
-A ∨ (B ∧ C) = (A ∨ B) ∧ (A ∨ C)
+- ``(A ∨ B) ∨ C = A ∨ (B ∨ C)``
 
-A (B ∨ C) = (A ∧ B) ∨ (A ∧ C)
-
-
-``4. Identitätsgesetz:``
-
-A ∨ 0 = A
-
-A ∧ 1 = A
+- ``(A ∧ B) ∧ C = A ∧ (B ∧ C)``
 
 
-``5. Null- und Einsgesetz:``
+# 3. Distributivgesetz:
 
-A ∨ 1 = 1
+- ``A ∨ (B ∧ C) = (A ∨ B) ∧ (A ∨ C)``
 
-A ∧ 0 = 0
+- ``A (B ∨ C) = (A ∧ B) ∨ (A ∧ C)``
 
 
-``6. Negationsgesetz:``
+# 4. Identitätsgesetz:
 
-A V ¬A = 1 
+- ``A ∨ 0 = A``
 
-A ∧ ¬A = 0
+- ``A ∧ 1 = A``
 
-``7. Idempotenzgesetz:``
 
-A ∨ A = A
+# 5. Null- und Einsgesetz:
 
-A ∧ A = A
+- ``A ∨ 1 = 1``
+
+- ``A ∧ 0 = 0``
+
+
+# 6. Negationsgesetz:
+
+- ``A V ¬A = 1 ``
+
+- ``A ∧ ¬A = 0``
+
+# 7. Idempotenzgesetz:
+
+- ``A ∨ A = A``
+
+- ``A ∧ A = A``
+
+# 8. Absorptionsgesetz:`´ 
+
+- ``A ∨ (A ∧ B) = A``
+- ``A ∧ (A ∨ B) = A``
+
+# 9. De-Morgansches Gesetz: 
+
+- ``¬(A ∧ B) = ¬A ∨ ¬B``
+- ``¬(A ∨ B) = ¬A ∧ ¬B``
