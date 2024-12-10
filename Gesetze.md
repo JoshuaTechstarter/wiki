@@ -20,6 +20,8 @@ Das Ergebnis ist das Gegenteil des Operanden.
 A impliziert B bedeutet, dass wenn A = 1 ist, dann muss auch B = 1 sein, damit das
 Ergebnis der implikation 1 ist.
 Sollte A = 0 sein, ist das Ergebnis der Implikation immer 1.
+Rekonstruktion: ¬AvB
+
 
 ``XOR (⊕):``
 
@@ -28,3 +30,5 @@ Das Ergebnis von ⊕ ist 1, wenn genau einer der beiden Operanden 1 ist ("entwed
 ``NOR (↓):``
 
 Das Ergebnis von ↓ ist 1, wenn keiner der beiden Operanden 1 ist ("nicht oder").
+
+Rekonstruktion: ¬(AvB)
