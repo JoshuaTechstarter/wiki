@@ -12,8 +12,8 @@
 
 Es gibt 6 versch. Datentypen: 
 
-| Spalte 1 | Spalte 2 | Spalte 3 | Spalte 1 | Spalte 2 | Spalte 3 |
-| -------- | -------- | -------- | -------- | -------- | -------- |
-| Inhalt   | Inhalt   | Inhalt   |
-| Inhalt   | Inhalt   | Inhalt   |
+| integer      | float         | string         | boolean           | list    | tuple         |
+| ------------ | ------------- | -------------- | ----------------- | --------| ------------- |
+| int          | float         | str            | bool              | list    | tuple         |
+| ganze Zahl   | Dezimalzahl   | Zeichenkette   | boolesche Werte   | Liste   | Liste (fix)   |
 
