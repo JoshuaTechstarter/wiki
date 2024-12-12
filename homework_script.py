@@ -1,5 +1,5 @@
 
-1. Namensabfrage mit Input
+#1. Namensabfrage mit Input
 firstname = input("Gib deinen Vornamen ein:")
 lastname = input("Gib deinen Nachnamen ein:")
 
@@ -7,7 +7,7 @@ name_full = firstname +" "+ lastname
 
 print(f"Der vollständige Name lautet: {name_full}" )
 
-2. Addition von Zahlen
+#2. Addition von Zahlen
 a = float(input("Zahl 1:"))
 b= float(input("Zahl 2:"))
 
@@ -15,7 +15,7 @@ c = (a + b)
 
 print(f"Ergebnis: {c}")
 
-3. Zusatzaufgabe: Einfache If-Bedingung
+#3. Zusatzaufgabe: Einfache If-Bedingung
 
 zahl = float(input("Gib eine Zahl zum prüfen an:"))
 
