@@ -1,6 +1,6 @@
 
 print("Aufgabe 1: Einfache Mathematik")
-# Variablen
+# Werte festlegen
 zahl1 = 34
 zahl2 = 67
 
@@ -14,7 +14,7 @@ print("Zahl 1 / Zahl 2:", zahl2 / zahl1)
 #Aufgabe 2
 print("Aufgabe 2: Durchschnitt berechnen")
 
-# Variablen
+# Werte festlegen
 zahl1 = float(input("Gib die erste Zahl ein: "))
 zahl2 = float(input("Gib die zweite Zahl ein: "))
 zahl3 = float(input("Gib die dritte Zahl ein: "))
