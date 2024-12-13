@@ -17,21 +17,22 @@ print(f"Ergebnis: {c}")
 
 #3. Zusatzaufgabe: Einfache If-Bedingung
 
-zahl = float(input("Gib eine Zahl zum prüfen an:"))
+zahl = (input("Gib eine Zahl zum prüfen an:"))
+zahl1 = float(zahl)
 
-if zahl > 0:
+if zahl1 > 0:
     print("Die Zahl ist positiv")
-elif zahl == 0:
+elif zahl1 == 0:
     print("Die Zahl ist null")
 else :
     print("Die Zahl ist negativ")
 
- istgerade = (zahl == 2 and zahl != -1) or (zahl % 2 == 0)
+ istgerade = (zahl1 == 2 and zahl1 != -1) or (zahl1 % 2 == 0)
 
- if istgerade:
-     print("Die Zahl ist gerade.")
- else:
+ if not istgerade:
      print("Die Zahl ist ungerade.")
+ else:
+     print("Die Zahl ist gerade.")
 
 
 
