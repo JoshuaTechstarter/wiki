@@ -29,9 +29,9 @@ else :
 
  istgerade = (zahl1 == 2 and zahl1 != -1) or (zahl1 % 2 == 0)
 
- if not istgerade:
+if not istgerade:
      print("Die Zahl ist ungerade.")
- else:
+else:
      print("Die Zahl ist gerade.")
 
 
