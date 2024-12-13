@@ -30,12 +30,12 @@ print(f"Der Durchschnitt der drei Zahlen ist: {durchschnitt}")
 print("Aufgabe 3. Kilometer in Meilen umrechnen")
 
 a = input("Wie viele Kilometer sollen in Meilen umgerechnet werden?")
-b="10"
+b = "10"
 def km_to_miles(km):
     x = float(km)
     c = float(0.621371)
     d=x*c
     return d
 
-print (a, "Kilometer entsprechen: ", km_to_miles(a), "Meilen")
+print (       a, "Kilometer entsprechen: ", km_to_miles(a), "Meilen")
 print (b, "Kilometer entsprechen: ", km_to_miles(b), "Meilen")
