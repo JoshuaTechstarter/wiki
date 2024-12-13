@@ -27,7 +27,7 @@ elif zahl1 == 0:
 else :
     print("Die Zahl ist negativ")
 
- istgerade = (zahl1 == 2 and zahl1 != -1) or (zahl1 % 2 == 0)
+istgerade = (zahl1 == 2 and zahl1 != -1) or (zahl1 % 2 == 0)
 
 if not istgerade:
      print("Die Zahl ist ungerade.")
