@@ -22,6 +22,11 @@ def div(zahl1, zahl2):
 
 
 def calculator():
+    print("Wähle deine Rechenoperation.")
+    print("1.Addition")
+    print("2.Subtraktion")
+    print("3.Multiplikation")
+    print("4.Division")
     choice = input("Wähle Option(1/2/3/4): ")
 
     if choice in ("1", "2", "3", "4"):
@@ -45,9 +50,4 @@ def calculator():
         print("Ungültige Eingabe")
 
 
-print("Wähle deine Rechenoperation.")
-print("1.Addition")
-print("2.Subtraktion")
-print("3.Multiplikation")
-print("4.Division")
 calculator()
