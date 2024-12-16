@@ -37,13 +37,10 @@ def calculator():
             print("Ungültige Eingabe, bitte gib eine Zahl ein.")
         if choice == "1":
             print(add(zahl1, zahl2))
-
         elif choice == "2":
             print(subtract(zahl1, zahl2))
-
         elif choice == "3":
             print(mult(zahl1, zahl2))
-
         elif choice == "4":
             print(div(zahl1, zahl2))
     else:
