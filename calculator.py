@@ -1,48 +1,36 @@
+import math_functions
+
 # Taschenrechner
-
-
-# Additions-Funktion
-def add(zahl1, zahl2):
-    return zahl1 + zahl2
-
-
-# Substraktions-Funktion
-def subtract(zahl1, zahl2):
-    return zahl1 - zahl2
-
-
-# multiplikation-Funktion
-def mult(zahl1, zahl2):
-    return zahl1 * zahl2
-
-
-# Division-Funktion
-def div(zahl1, zahl2):
-    return zahl1 / zahl2
 
 
 def calculator():
     print("Wähle deine Rechenoperation.")
-    print("1.Addition")
-    print("2.Subtraktion")
-    print("3.Multiplikation")
-    print("4.Division")
-    choice = input("Wähle Option(1/2/3/4): ")
+    print("1. Addition")
+    print("2. Subtraktion")
+    print("3. Multiplikation")
+    print("4. Division")
+    print("5. Fläche berechnen")
+    print("6. Meilen in Kilometer")
+    print("7. Kilometer in Meilen")
+    print("8. Celsius in Fahrenheit")
+    print("9. Fahrenheit in Celsius")
+    choice = input("Wähle Option(1/2/3/4/5/6/7/8/9): ")
 
-    if choice in ("1", "2", "3", "4"):
+    if choice in ("1", "2", "3", "4", "5", "6", "7", "8", "9"):
         try:
             zahl1 = float(input("Gib deine erste Zahl ein: "))
             zahl2 = float(input("Gib deine zweite Zahl ein: "))
         except ValueError:
             print("Ungültige Eingabe, bitte gib eine Zahl ein.")
         if choice == "1":
-            print(add(zahl1, zahl2))
+            print(math_functions.add(zahl1, zahl2))
         elif choice == "2":
-            print(subtract(zahl1, zahl2))
-        elif choice == "3":
-            print(mult(zahl1, zahl2))
+            print(math_functions.subtract(zahl1, zahl2))
+        elif choice == "3" or "5":
+            print(math_functions.mult(zahl1, zahl2))
         elif choice == "4":
-            print(div(zahl1, zahl2))
+            print(math_functions.div(zahl1, zahl2))
+
     else:
         print("Ungültige Eingabe")
 
