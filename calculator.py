@@ -30,7 +30,8 @@ def calculator():
             print(math_functions.mult(zahl1, zahl2))
         elif choice == "4":
             print(math_functions.div(zahl1, zahl2))
-
+        elif choice == "6":
+            print(math_functions.miles_to_km(km))
     else:
         print("Ungültige Eingabe")
 
