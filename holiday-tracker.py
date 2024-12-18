@@ -1,28 +1,38 @@
 # Hausaufgabe 2024.12.13 Ferientracker
+import datetime
 
-
-date = input("Enter a date to determine if its holiday or not (YYYY.MM.DD):")
-
-is_winter = date >= "2024.12.24" and date <= "2025.01.01"
-is_spring = date >= "2025.04.18" and date <= "2025.04.21"
-is_summer = date >= "2025.08.11" and date <= "2025.08.19"
-is_winter2 = date >= "2025.12.24" and date <= "2025.01.01"
+date = datetime.date.today()
+print(date.strftime("Heute ist der %d.,%Y"))
+is_winter = date >= datetime.datetime(2024, 12, 24) and date <= datetime.datetime(
+    2025, 1, 1
+)
+is_spring = date >= datetime.datetime(2025, 4, 18) and date <= datetime.datetime(
+    2025, 4, 21
+)
+is_summer = date >= datetime.datetime(2025, 8, 11) and date <= datetime.datetime(
+    2025, 8, 19
+)
+is_winter2 = date >= datetime.datetime(2025, 12, 24) and date <= datetime.datetime(
+    2025, 1, 1
+)
 feiertag = [
-    "2024.10.03",
-    "2024.10.31",
-    "2024.12.25",
-    "2024.12.26",
-    "2025.01.01",
-    "2025.04.18",
-    "2025.04.21",
-    "2025.05.01",
-    "2025.05.29",
-    "2025.06.09",
-    "2025.10.03",
-    "2025.10.31",
-    "2025.12.25",
-    "2025.12.26",
-    "2026.01.01",
+    datetime.datetime(
+        (2024, 10, 3),
+        (2024, 10, 31),
+        (2024, 12, 25),
+        (2024, 12, 26),
+        (2025, 1, 1),
+        (2025, 4, 18),
+        (2025, 4, 21),
+        (2025, 5, 1),
+        (2025, 5, 29),
+        (2025, 6, 9),
+        (2025, 10, 3),
+        (2025, 10, 31),
+        (2025, 12, 25),
+        (2025, 12, 26),
+        (2026, 1, 1),
+    )
 ]
 
 if is_winter:
