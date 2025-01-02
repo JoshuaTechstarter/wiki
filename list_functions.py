@@ -3,7 +3,6 @@
 # 2. Nur die ungeraden Zahlen ausgibt#
 # 3. Die größte Zahl der Liste findet#
 
-
 zahlenliste = [22, 3, 5, 19, 4, 20, 8, 14]
 summe = sum(zahlenliste)
 biggest = max(zahlenliste)
