@@ -24,7 +24,7 @@ print(ungerade_zahlen(zahlenliste))
 
 print(f"Die größte Zahl ist", biggest)
 
-largest = 0
+largest = zahlenliste[0]
 
 for i in zahlenliste:
     if i > largest:
