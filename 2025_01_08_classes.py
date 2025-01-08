@@ -65,10 +65,14 @@ class Vehicles:
         distance_one_refuel = self.consumption * self.tank_volume
         return self.km_driven / distance_one_refuel
 
+    def drive(self, km_driven):
+        self.km_driven = self.km_driven + km_driven
+        return
+
 
 my_vehicle = Vehicles("VW", "Golf", 10, 100)
 my_vehicle.drive(2000)
 print(f"Der Verbrauch liegt bei{my_vehicle.get_total_consumption()}")
 print(
-    f"Das Auto kommt mit{my_vehicle.get_refuels()} Tankfüllungen bei einer Distanz von {self.km_driven}"
+    f"Das Auto kommt mit{my_vehicle.get_refuels()} Tankfüllungen bei einer Distanz von {my_vehicle.km_driven}"
 )
