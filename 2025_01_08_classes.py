@@ -74,5 +74,5 @@ my_vehicle = Vehicles("VW", "Golf", 10, 100)
 my_vehicle.drive(2000)
 print(f"Der Verbrauch liegt bei{my_vehicle.get_total_consumption()}")
 print(
-    f"Das Auto kommt mit{my_vehicle.get_refuels()} Tankfüllungen bei einer Distanz von {my_vehicle.km_driven}"
+    f"Das Auto kommt mit {my_vehicle.get_refuels()} Tankfüllungen bei einer Distanz von {my_vehicle.km_driven}"
 )
