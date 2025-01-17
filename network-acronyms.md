@@ -24,7 +24,13 @@
    - ARP – Address Resolution Protocol
    - DHCP – Dynamic Host Configuration Protocol
    - HTTP – Hypertext Transfer Protocol
-   - HTTPS – Hypertext Transfer Protocol Secure
+    
+      Port: 80
+
+   - HTTPS – Hypertext Transfer Protocol Secure 
+
+      Port: 443 
+      
    - FTP – File Transfer Protocol
    - SFTP – Secure File Transfer Protocol
    - SMTP – Simple Mail Transfer Protocol
@@ -39,16 +45,16 @@
 
 ## Netzwerkhardware und -technologien:
 
-    - NIC – Network Interface Card
-    - MAC – Media Access Control
-    - WLAN – Wireless Local Area Network
-    - Wi-Fi – Wireless Fidelity
-    - GPRS – General Packet Radio Service
-    - 3G/4G/5G – Generationen mobiler Netzwerke (Third/Fourth/Fifth Generation)
-    - DSL – Digital Subscriber Line
-    - FTTH – Fiber to the Home
-    - VLAN – Virtual Local Area Network
-    - SSID – Service Set Identifier
+   - NIC – Network Interface Card
+   - MAC – Media Access Control
+   - WLAN – Wireless Local Area Network
+   - Wi-Fi – Wireless Fidelity
+   - GPRS – General Packet Radio Service
+   - 3G/4G/5G – Generationen mobiler Netzwerke (Third/Fourth/Fifth Generation)
+   - DSL – Digital Subscriber Line
+   - FTTH – Fiber to the Home
+   - VLAN – Virtual Local Area Network
+   - SSID – Service Set Identifier
 
 ## Sicherheit:
 
