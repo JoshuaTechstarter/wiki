@@ -11,6 +11,9 @@
    - DNS – Domain Name System
    - TELNET – Telecommunication Network
    - SSH – Secure Shell
+
+      Port: 22 
+      
    - NAT – Network Address Translation
    - DNS – Domain Name System
    - CIDR – Classless Inter-Domain Routing
