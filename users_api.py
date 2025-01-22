@@ -5,21 +5,21 @@ app = Flask(__name__)
 users = [
     {
         "id": 1,
-        "usename": "maexchen",
+        "username": "maexchen",
         "password": "letsGo",
         "firstName": "Max",
         "familyName": "Mustermann",
     },
     {
         "id": 2,
-        "usename": "annachen",
+        "username": "annachen",
         "password": "letsGo1",
         "firstName": "Anna",
         "familyName": "Muster",
     },
     {
         "id": 3,
-        "usename": "bobby",
+        "username": "bobby",
         "password": "letsGo2",
         "firstName": "Bob",
         "familyName": "M.",
@@ -53,7 +53,7 @@ def login():
     credentials = request.get_json()
     username = credentials["username"]
     password = credentials["password"]
-    if username in users and users["username"] == password:
+    if username in users and users["username"] == username:
         return f"Hallo {username}, Login erfolgreich!"
     else:
         return "Ungültige Anmeldedaten"
