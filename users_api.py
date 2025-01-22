@@ -51,12 +51,13 @@ def get_user(id):
 @app.route("/users/login", methods=["POST"])
 def login():
     credentials = request.get_json()
-    username = credentials["username"]
-    password = credentials["password"]
-    if username in users and users["username"] == username:
-        return f"Hallo {username}, Login erfolgreich!"
-    else:
-        return "Ungültige Anmeldedaten"
+    username = credentials.get("username")
+    password = credentials.get("password")
+
+    for user in users:
+        if user["username"] == username and user["password"] == password:
+            return f"Hallo {user['firstName']}, Login erfolgreich!"
+    return "Ungültige Anmeldedaten", 401
 
 
 # @app.route("/users/signup", methods=["POST"])
