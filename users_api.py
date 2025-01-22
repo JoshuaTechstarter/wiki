@@ -53,7 +53,7 @@ def login():
     credentials = request.get_json()
     username = credentials["username"]
     password = credentials["password"]
-    if username in users and users[username] == password:
+    if username in users and users["username"] == password:
         return f"Hallo {username}, Login erfolgreich!"
     else:
         return "Ungültige Anmeldedaten"
